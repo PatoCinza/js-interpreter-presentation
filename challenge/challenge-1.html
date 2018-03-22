@@ -1,0 +1,15 @@
+<button id="tricky-guy">Press it</button>
+
+<script>
+    var button = document.getElementById('tricky-guy')
+    
+    button.addEventListener('click', event => {
+        Promise.resolve().then(() => console.log('p1'))
+        console.log('1')
+    })
+
+    button.addEventListener('click', event => {
+        Promise.resolve().then(() => console.log('p2'))
+        console.log('2')
+    })
+</script>
