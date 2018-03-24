@@ -7,10 +7,15 @@
         return a * b
     }
 
-    function exponenciacao2(x) {
+    function quadrado(x) {
         return multiplicacao(x, x)
     }
 
-    const valor = exponenciacao2(2)
+    const valor = quadrado(2)
     console.log(`valor: ${valor}`)
 })()
+
+
+
+
+
