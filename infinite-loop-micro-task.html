@@ -12,6 +12,7 @@
         <button id="infinite">While (true)</button>
         
         <script>
+            let button = document.getElementById('infinite');
             function loop() {
                 Promise.resolve().then(loop())
             }
