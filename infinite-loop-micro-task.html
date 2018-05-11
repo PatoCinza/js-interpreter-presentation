@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <img src="https://media.giphy.com/media/7isbcNAx367qU/giphy.gif" />
+        <p>Se você não tá no jogo do longo prazo, então seu futuro é estar fora do jogo.</p>
+        <p>Construa algo que seja top. Encare problemas como oportunidades.</</p>
+        <p>Não adianta ter conhecimento se você não tem action. Never f*ing give up.</p>
+        <p>O segredo do sucesso é começar antes de estar pronto. Você nunca vai estar pronto então comece agora.</p>
+        <p>Quebre padrões e atinja a alta performance em todas as áreas da sua vida.</p>
+        <button id="infinite">While (true)</button>
+        
+        <script>
+            function loop() {
+                Promise.resolve().then(loop())
+            }
+            
+            button.addEventListener('click', event => {
+                loop();
+            })
+        </script>
+    </body>
+</html>
